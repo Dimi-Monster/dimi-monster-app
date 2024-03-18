@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "dimi-monster-app",
-    "slug": "dimi-monster-app",
+    "name": "DIMI Monster",
+    "slug": "dimi-monster",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
