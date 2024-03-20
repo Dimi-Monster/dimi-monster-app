@@ -10,7 +10,12 @@
     "preview": {
       "distribution": "internal"
     },
-    "production": {}
+    "production": {
+      "env": {
+        "ANDROID_SDK_ROOT": "/Users/seonwoo0808/Library/Android/sdk",
+        "ANDROID_HOME": "/Users/seonwoo0808/Library/Android/sdk"
+      }
+    }
   },
   "submit": {
     "production": {}
