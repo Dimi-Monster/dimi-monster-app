@@ -2,13 +2,11 @@
   "expo": {
     "name": "디미몬스터",
     "slug": "dimi-monster",
-    "version": "1.0.6",
-    "orientation": "portrait",
+    "version": "1.0.9",
+    "orientation": "default",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "automatic",
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true,
       "splash": {
@@ -19,7 +17,11 @@
     },
     "android": {
       "package": "com.seonwoo0808.dimimonster",
-      "versionCode": 12,
+      "versionCode": 15,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive.png",
+        "backgroundColor": "#fffbfd"
+      },
       "splash": {
         "ldpi": "./assets/splash-mdpi.png",
         "mdpi": "./assets/splash-mdpi.png",
